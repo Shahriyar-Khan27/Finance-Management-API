@@ -1,0 +1,58 @@
+{
+    "accounts": [
+        {
+            "account_id": 1,
+            "name": "Savings Account",
+            "type": "savings",
+            "balance": 5000
+        },
+        {
+            "account_id": 2, 
+            "name": "Current Account",
+            "type": "checking",
+            "balance": 3000
+        }
+    ],
+    "transactions": [
+        {
+            "transaction_id": 1,
+            "account_id": 1,
+            "amount": 1000,
+            "type": "income",
+            "description": "Salary"
+        },
+        {
+            "transaction_id": 2,
+            "account_id": 1,
+            "amount": -50,
+            "type": "expense",
+            "description": "Groceries"
+        },
+        {
+            "transaction_id": 3,
+            "account_id": 2,
+            "amount": 500,
+            "type": "income",
+            "description": "Freelance"
+        },
+        {
+            "transaction_id": 4,
+            "account_id": 1,
+            "amount": -200,
+            "type": "transfer",
+            "description": "Transfer to account 2"
+        }
+    ],
+    "budgets": [
+        {
+            "budget_id": 1,
+            "category": "Groceries",
+            "amount": 300
+        },
+        {
+            "budget_id": 2,
+            "category": "Transportation",
+            "amount": 200
+        }
+    ]
+}
